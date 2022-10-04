@@ -188,7 +188,7 @@ if (!window.requestAnimationFrame) {
 
 function init_plugin() {
 
-   $('canvas').constellation({
+   $('#constellationel, #constellatione2, #constellatione3, #constellatione4, #constellatione5, #constellatione6, #constellatione7, #constellatione8').constellation({
 		star: {
 			color: 'rgba(255, 255, 255, .3)',
 			width: 2
@@ -211,10 +211,10 @@ function init_plugin() {
 
 $(document).ready(function(){
     
-    var onMobile = false;
+    var onMobile = true;
     if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) { onMobile = true; }
     
-    if( ( onMobile === false ) ) {
+    if( ( onMobile === true ) ) {
 
     	init_plugin(); //init plugin
 
