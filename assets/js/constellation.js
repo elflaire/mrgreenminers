@@ -211,10 +211,10 @@ function init_plugin() {
 
 $(document).ready(function(){
     
-    var onMobile = true;
+    var onMobile = false;
     if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) { onMobile = true; }
     
-    if( ( onMobile === true ) ) {
+    if( ( onMobile === false ) ) {
 
     	init_plugin(); //init plugin
 
