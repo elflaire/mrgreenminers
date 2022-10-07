@@ -1299,12 +1299,13 @@ background:#000;
           
     }	
 	
-}
+	.texty {
+	  font-size: 34px;
+	  padding-bottom:10px;
+	  line-height: normal;
+	}	
+	
 
-
-
-/* Media queries - Responsive timeline on screens less than 600px wide */
-@media screen and (max-width: 600px) {
   .timeline::after {
     left: 31px;
   }
