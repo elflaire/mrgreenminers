@@ -1368,6 +1368,11 @@ background:#000;
 .pushead{ height:30px; display:block; }	
 .spacehead{height:20px; display:block;} 
 .padspace{ padding-bottom:40px; display:block; } 
+
+.window-frame-inner {
+    padding:25px;
+}
+
 }
 
 @media only screen and (max-width:480px) { 
