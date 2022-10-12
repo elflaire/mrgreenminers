@@ -12,7 +12,13 @@
     width: 100%;
     height: 100%; }
 	
-.playintro-animation{ position:absolute; left:0; top:0; height:100%; width:100%; border:5px solid #fff; }	
+.playintro-animation{ 
+	position:absolute; 
+	left:0; top:0; 
+	height:100%; 
+	width:100%; 
+	/*border:5px solid #fff;*/ 
+}	
 	
 	
 .la-timer,
