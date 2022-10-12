@@ -664,7 +664,7 @@ background: linear-gradient(0deg, rgba(17,21,29,.9) 0%, rgba(17,21,29,.9) 35%, r
 
 .odometer.odometer-auto-theme, 
 .odometer.odometer-theme-default {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Inter', sans-serif;
     line-height:1;
 	position:relative;
 	top:-10px;
@@ -676,7 +676,7 @@ background: linear-gradient(0deg, rgba(17,21,29,.9) 0%, rgba(17,21,29,.9) 35%, r
 	padding-bottom:0;
 	color:#526AF9;
 	font-size:40px;
-	font-family: 'Playfair Display', serif;
+	font-family: 'Inter', sans-serif;
 	font-weight:500;
 }
 

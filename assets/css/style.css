@@ -1,54 +1,10 @@
 /*
 ===========================================================
-    INDEX
+    STYLE
 ===========================================================
-
-font-family: 'Source Sans Pro', sans-serif;
-font-family: 'Playfair Display', serif;
-
-    01) Reset
-    02) Animations
-    03) Typography
-    04) Utilities
-
-    05) Button
-    06) Title
-    07) Slider Elements
-    08) Tab
-    09) Selectbox
-    10) Breadcrumb
-    11) Pagination
-    12) Comment
-    13) Form Styles
-    14) Videobox
-    15) Accordion
-
-    16) Header
-    17) Navigation
-    18) Heroslider
-    19) Feature
-    20) About
-    21) Service
-    22) Screenshots
-    23) Funfact
-    24) Team Area
-    25) Testimonial
-    26) Pricebox
-    27) Faq Area
-    28) Download Area
-    29) Subscribe Area
-    30) Blog
-    31) Contact
-    32) Widgets
-    33) Footer
-
-===========================================================
-    END INDEX
-===========================================================
+font-family: 'Inter', sans-serif;
 */
-/**
- * Reset
- */
+
 html {
   color: #222;
   font-size: 1em;
@@ -578,7 +534,7 @@ body {
   line-height: 30px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Inter', sans-serif;
   color: #333;
   font-weight: 400;
 }
@@ -633,7 +589,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Inter', sans-serif;
   color: #000;
 }
 
@@ -645,14 +601,14 @@ h3,
 .h3,
 h4,
 .h4 {
-  font-weight: 500;
+  font-weight: 600;
 }
 
 h5,
 .h5,
 h6,
 .h6 {
-  font-weight: 400;
+  font-weight: 500;
 }
 
 h1,
@@ -803,7 +759,7 @@ textarea {
   -o-transition: all 0.4s ease-out 0s;
   transition: all 0.4s ease-out 0s;
   color: #686b77;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Inter', sans-serif;
   border-radius: 3px;
 }
 
@@ -1221,11 +1177,11 @@ input[type=radio]:checked ~ label::before {
 
 /* Font specialized */
 .body-font {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 .heading-font {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Inter', sans-serif;
 }
 
 /* Height and width */
@@ -1802,7 +1758,7 @@ button.tm-button {
   position: relative;
   z-index: 1;
   vertical-align: middle;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 500;
   font-size: 18px;
   letter-spacing: 0.5px;
@@ -2898,11 +2854,11 @@ button.tm-videobutton.tm-videobutton-lg span i {
   width: 100%;
   text-align: left;
   padding: 10px 10px 10px 50px;
-  font-size: 22px;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  font-family: 'Inter', sans-serif;
   color: #3c424f;
-  line-height: 28px;
-  font-weight: 500;
+  line-height: 26px;
+  font-weight: 400;
   text-decoration: none !important;
   border: 0;
   position: relative;
@@ -3200,7 +3156,7 @@ button.tm-videobutton.tm-videobutton-lg span i {
 .tm-navigation > ul > li > a {
   display: inline-block;
   font-size: 17px;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 500;
   padding: 10px 0;
   color: #3c424f;
@@ -4575,7 +4531,7 @@ button.tm-videobutton.tm-videobutton-lg span i {
 .tm-funfact-content .tm-funfact-number {
   color: #0E8FE3;
   font-weight: 700;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Inter', sans-serif;
   font-size: 36px;
   line-height: 46px;
   margin-bottom: 5px;
@@ -4589,7 +4545,7 @@ button.tm-videobutton.tm-videobutton-lg span i {
 
 .tm-funfact-content .tm-funfact-number .odometer {
   font-weight: 700;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Inter', sans-serif;
   font-size: 36px;
   line-height: 46px;
 }
@@ -4993,7 +4949,7 @@ button.tm-videobutton.tm-videobutton-lg span i {
 }
 
 .tm-testimonial-content h6 {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Inter', sans-serif;
   font-size: 16px;
   margin-bottom: 0;
 }
@@ -5171,7 +5127,7 @@ button.tm-videobutton.tm-videobutton-lg span i {
 .tm-pricebox-price-time {
   margin-bottom: 0;
   color: #686b77;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 .tm-pricebox-footer {
