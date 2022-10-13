@@ -675,9 +675,9 @@ background: linear-gradient(0deg, rgba(17,21,29,.9) 0%, rgba(17,21,29,.9) 35%, r
 	padding:25px 35px;
 	padding-bottom:0;
 	color:#526AF9;
-	font-size:40px;
+	font-size:28px;
 	font-family: 'Inter', sans-serif;
-	font-weight:500;
+	font-weight:700;
 }
 
 .tm-funfact-content{ padding:40px; padding-top:10px;}
@@ -690,7 +690,7 @@ background: linear-gradient(0deg, rgba(17,21,29,.9) 0%, rgba(17,21,29,.9) 35%, r
 	color:#fff;
 }
 .introcontent{ padding-top:80px; }
-.tm-funfact-content h5{ color:#fff; line-height: 20px; font-size:26px; font-weight:700;  }
+.tm-funfact-content h5{ color:#fff; line-height: 20px; font-size:22px; font-weight:600;  }
 .tm-screenshots-slider .tm-screenshots-single img{ 
 	border:10px solid rgba(255,255,255, 1);
 	box-shadow: rgb(11 43 158 / 35%)  2px 3px 23px 0px;
