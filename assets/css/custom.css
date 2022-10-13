@@ -1381,9 +1381,16 @@ background:#000;
     padding:25px;
 }
 
+.introcontent{ padding-top:30px; }
+.playintro-animation{ 
+	left:-20px; 
+}	
+
 }
 
 @media only screen and (max-width:480px) { 
 .footer_profile ul li{margin:2px;}
+.introcontent{ padding-top:10px; }
+
 }
 
