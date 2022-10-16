@@ -1394,16 +1394,16 @@ input[type=radio]:checked ~ label::before {
 
 /* Section Padding */
 .tm-padding-section {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .tm-padding-section-top {
-  padding-top: 100px;
+  padding-top: 50px;
 }
 
 .tm-padding-section-bottom {
-  padding-bottom: 100px;
+  padding-bottom: 50px;
 }
 
 .tm-padding-section-sm {
@@ -2283,10 +2283,15 @@ button.tm-videobutton.tm-videobutton-lg span i {
   top: 0;
   height: 100%;
   width: 100%;
-  background: rgba(255, 255, 255, 0.4);
+  /*background: rgba(255, 255, 255, 0.4);*/
+background-origin: border-box;
+border: 4px double transparent;
+background-clip: content-box,border-box;
+background-image: linear-gradient(#000000,#000000),linear-gradient(90deg,#38E262,#38E262,#ffdf37,#ffdf37);  
   z-index: -1;
   border-radius: 100px;
 }
+
 
 .tm-slider-arrow-prev i, 
 .tm-slider-arrow-next i {
@@ -2303,7 +2308,7 @@ button.tm-videobutton.tm-videobutton-lg span i {
   background: -webkit-linear-gradient(bottom, #1976D2 0%, #03A9F4 100%);
   background: -o-linear-gradient(bottom, #1976D2 0%, #03A9F4 100%);
   background: linear-gradient(0deg, #1976D2 0%, #03A9F4 100%);*/
-  background:#222;
+  background:#000;
   color: #ffffff;
   font-size: 24px;
   vertical-align: middle;
@@ -2317,6 +2322,11 @@ button.tm-videobutton.tm-videobutton-lg span i {
 .tm-slider-arrow-next {
   left: auto;
   right: 0;
+}
+
+.tm-team-slider .tm-slider-arrow-prev::after, 
+.tm-team-slider .tm-slider-arrow-next::after {
+	background-image: linear-gradient(#000000,#000000),linear-gradient(90deg,#58368F,#58368F,#AB227D,#AB227D); 
 }
 
 /**
@@ -3314,6 +3324,7 @@ button.tm-videobutton.tm-videobutton-lg span i {
  */
  
 .main-heroslider{ position:relative; overflow:hidden; }
+#playeraminam{ position:absolute; left:0; top:0; height:100%; width:100%; }
 .tm-heroslider-inner {
   /*background: -webkit-linear-gradient(90deg, #1976D2 0%, #03A9F4 100%);
   background: -moz-linear-gradient(90deg, #1976D2 0%, #03A9F4 100%);
@@ -3551,8 +3562,8 @@ button.tm-videobutton.tm-videobutton-lg span i {
     padding-right: 80px;
   }
   .tm-heroslider-content h1 {
-    font-size: 48px;
-    line-height: 60px;
+    font-size: 58px;
+    line-height: 65px;
   }
   .tm-heroslider-content p {
     margin-top: 20px;
@@ -6167,18 +6178,19 @@ button.tm-videobutton.tm-videobutton-lg span i {
 }
 
 .tm-footer-social li a {
-  display: inline-block;
-  height: 30px;
-  width: 30px;
-  line-height: 1;
-  text-align: center;
-  font-size: 16px;
-  color: #ffffff;
-  border: 1px solid #ffffff;
-  border-radius: 100px;
-  overflow: hidden;
-  position: relative;
-  vertical-align: middle;
+	display: inline-block;
+	height: 30px;
+	width: 30px;
+	line-height: 1;
+	text-align: center;
+	font-size: 16px;
+	color: #ffffff;
+	border: 1px solid #ffffff;
+	border-radius: 100px;
+	overflow: hidden;
+	position: relative;
+	vertical-align: middle;
+
 }
 
 .tm-footer-social li a i {
