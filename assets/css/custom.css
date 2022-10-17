@@ -18,6 +18,7 @@
 	height:100%; 
 	width:100%;
 }
+.intropara{ position:relative; }
 .bolderword{ font-weight:700; }
 #some-id{
 	background: #FF2200;
