@@ -28,7 +28,7 @@
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
-
+.hidden-elem{ visibility: hidden; }
 .cursor{ color:#6C47FF; font-size:38px; position:relative; top:-5px; }	
 .pullup-col{ position: absolute; left:0; top:-20px; width:100%; height:100%;  /*top: -160px; margin-bottom:-140px;*/ }	
 .about-sectioning{ position:relative; }

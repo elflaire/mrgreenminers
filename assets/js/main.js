@@ -236,7 +236,16 @@
 		
 		/* Wow Anim*/
 		wowAnimInit: function () {
-			new WOW().init();	
+			//new WOW().init();	
+			
+			var scrolled = false;
+			$(window).on('scroll', function() {
+				if (!scrolled) {
+					scrolled = true;
+					new WOW().init();
+		
+				}
+			});			
 		},		
 
         /* Initializer */
